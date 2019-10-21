@@ -1,4 +1,5 @@
-* Create virtualenv:
-`virtualenv -p python3 python_flask`
-* Activate it: 
-`source python_flask/bin/activate`
+# Stores REST Api
+
+This is built with Flask, Flask-RESTful, Flask-JWT, and Flask-SQLAlchemy.
+
+Deployed on Heroku.

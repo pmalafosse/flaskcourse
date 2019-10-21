@@ -16,7 +16,7 @@ class StoreModel(db.Model):
 
     @classmethod
     def find_by_name(cls, name):
-        return cls.query.filter_by(name=name).first() # SELECT * FROM items where name = name limit 1
+        return cls.query.filter_by(name=name).first()
 
     def save_to_db(self):
         db.session.add(self)
